@@ -1,76 +1,76 @@
 # Tokokita Flutter App
 
-Tokokita adalah aplikasi Flutter yang dirancang untuk mengelola toko online. Aplikasi ini memungkinkan pengguna untuk melihat produk, menambahkannya ke keranjang belanja, dan melakukan pembelian.
+Tokokita is a Flutter application designed to manage an online store. This application allows users to view products, add them to the shopping cart, and make purchases.
 
-## Fitur
+## Features
 
-- Lihat daftar produk
-- Tambahkan produk ke keranjang belanja
-- Hapus produk dari keranjang belanja
-- Lakukan pembelian
-- Autentikasi pengguna
+- View product list
+- Add products to the shopping cart
+- Remove products from the shopping cart
+- Make purchases
+- User authentication
 
-## Prasyarat
+## Prerequisites
 
-Sebelum memulai, pastikan Anda telah memenuhi persyaratan berikut:
+Before you begin, ensure you have met the following requirements:
 
 - Dart >= 2.12
 - Flutter SDK
 - Firebase account
-- Node.js dan npm untuk pengelolaan paket
-- Emulator Android atau iOS atau perangkat fisik untuk pengujian
+- Node.js and npm for package management
+- Android or iOS emulator or physical device for testing
 
-## Instalasi
+## Installation
 
-1. Clone repository ini:
-    ```bash
+1. Clone this repository:
+    bash
     git clone https://github.com/FauzanTanzil/tokokita-flutter-app.git
     cd tokokita-flutter-app
-    ```
+    
 
-2. Install dependencies menggunakan Flutter:
-    ```bash
+2. Install dependencies using Flutter:
+    bash
     flutter pub get
-    ```
+    
 
-3. Setup Firebase untuk proyek Anda:
-    - Ikuti panduan [Firebase setup guide](https://firebase.google.com/docs/flutter/setup) untuk mengonfigurasi Firebase untuk aplikasi Flutter Anda.
-    - Pastikan untuk menambahkan `google-services.json` (untuk Android) dan `GoogleService-Info.plist` (untuk iOS) ke direktori yang sesuai sesuai dengan panduan.
+3. Set up Firebase for your project:
+    - Follow the [Firebase setup guide](https://firebase.google.com/docs/flutter/setup) to configure Firebase for your Flutter app.
+    - Ensure to add google-services.json (for Android) and GoogleService-Info.plist (for iOS) to the respective directories as per the guide.
 
-4. Jalankan aplikasi:
-    ```bash
+4. Run the application:
+    bash
     flutter run
-    ```
+    
 
-## Penggunaan
+## Usage
 
-- Buka aplikasi di emulator atau perangkat fisik Anda.
-- Lihat daftar produk yang tersedia.
-- Tambahkan produk ke keranjang belanja dan lanjutkan ke pembayaran.
+- Open the application on your emulator or physical device.
+- View the list of available products.
+- Add products to the shopping cart and proceed to checkout.
 
-## Struktur Direktori
+## Directory Structure
 
-- `lib/` - Berisi kode utama aplikasi.
-    - `controllers/` - Berisi logika kontrol aplikasi.
-    - `models/` - Berisi model data aplikasi.
-    - `screens/` - Berisi tampilan aplikasi.
-    - `widgets/` - Berisi widget khusus.
-- `assets/` - Berisi aset statis seperti gambar dan font.
-- `android/` - Berisi konfigurasi khusus Android.
-- `ios/` - Berisi konfigurasi khusus iOS.
-- `web/` - Berisi konfigurasi khusus web.
-- `windows/` - Berisi konfigurasi khusus Windows.
-- `macos/` - Berisi konfigurasi khusus macOS.
-- `linux/` - Berisi konfigurasi khusus Linux.
+- lib/ - Contains the main application code.
+    - controllers/ - Contains the application logic controllers.
+    - models/ - Contains the application data models.
+    - screens/ - Contains the application screens.
+    - widgets/ - Contains custom widgets.
+- assets/ - Contains static assets like images and fonts.
+- android/ - Contains Android-specific configurations.
+- ios/ - Contains iOS-specific configurations.
+- web/ - Contains web-specific configurations.
+- windows/ - Contains Windows-specific configurations.
+- macos/ - Contains macOS-specific configurations.
+- linux/ - Contains Linux-specific configurations.
 
-## Kontribusi
+## Contributing
 
-Jika Anda ingin berkontribusi, silakan fork repository ini dan buat pull request. Untuk perubahan besar, harap buka issue terlebih dahulu untuk mendiskusikan apa yang ingin Anda ubah.
+If you wish to contribute, please fork this repository and make a pull request. For major changes, please open an issue first to discuss what you would like to change.
 
-## Lisensi
+## License
 
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
-## Kontak
+## Contact
 
-Untuk informasi lebih lanjut, Anda dapat menghubungi Fauzan Tanzil Habibi melalui [GitHub](https://github.com/FauzanTanzil).
+For more information, you can contact Fauzan Tanzil Habibi via [GitHub](https://github.com/FauzanTanzil).
